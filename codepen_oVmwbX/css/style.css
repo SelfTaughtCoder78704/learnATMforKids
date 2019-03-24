@@ -1,0 +1,137 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(https://images-na.ssl-images-amazon.com/images/I/51VFV3pHfwL._SX466_.jpg) no-repeat;
+  background-size: cover;
+  height:100vh;
+}
+
+#atm{
+  width: 40%;
+  height:80%;
+  background-color: silver;
+  padding: 10px; 
+  margin: 0 auto;
+  box-shadow: 20px 20px 40px black;
+  border-radius: 5px;
+  border: 30px outset;
+}
+
+#atm h1{
+  text-align:center;
+}
+
+.screen{
+  width: 70%;
+  background: linear-gradient(40deg, white, black, black, black, black, white);
+  height: 40vh;
+ color: rgb(13,222, 40);
+  padding: 10px;
+  margin: 0 auto; 
+  border: 20px inset; 
+  text-align: center;
+  border-radius: 5px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.numPad{
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 1px inset;
+  border-radius: 5px;
+}
+
+.innerNums{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align:center;
+  grid-gap: .3em;
+  padding: 2px;
+}
+
+.innerNums > button{
+  background: white;
+  border: 2px outset;
+  border-radius: 5px; 
+  font-size: .8em;
+}
+
+.masked{
+  font-size: 40px;
+}
+
+.slot{
+  width: 20%;
+  height: 5px;
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 25px;
+  border: 10px inset;
+   border-radius: 5px;
+}
+.cashBox{
+  width: 15%;
+  height:20px;
+  background: linear-gradient(90deg,white,black,black,black,black,black,black, black,black, white);
+  margin: 0 auto;
+  margin-top: 25px;
+  border: 10px inset;
+   border-radius: 5px;
+}
+#cardInfo{
+  text-align:center;
+  font-size: .6em;
+}
+#ret{
+  text-align:center;
+  font-size: .6em;
+}
+.reqBtn {
+  border: none;
+  background: rgba(255,255,255,0.4);
+  border-radius: 5px;
+  border: 1px solid rgb(13,222, 40);
+  color: white;
+}
+
+.card{
+  width: 150px;
+  height: 90px;
+  background: red;
+  border-radius: 5px;
+  box-shadow: 2px 4px 6px black;
+}
+
+.info{
+  font-size: .6em;
+  padding: 1em;
+  color: white;
+}
+
+.response{
+  
+  margin-top: 30px;
+}
+
+#mess{
+ font-size: .9em; 
+  display:none;
+}
+
+.request{
+  display: none;
+}
+
+.twank{
+  display: none;
+  width: 200px;
+}
+
+.money{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  width: 90%;
+  margin: 0 auto;
+}

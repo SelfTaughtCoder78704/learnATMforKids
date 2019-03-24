@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  bobby</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+
+<div id="atm">
+  <div class="screen">
+    <div class="messageScreen">
+      <h1 id='welcome'>Welcome</h1>
+      <p id="changeMessage">Insert Your Card In The Slot Below.</p>
+    </div>
+    <div class="request">
+      <button class="reqBtn" id='bal'>Check Balance</button>
+      <button class="reqBtn" id='wid'>Withdrawl</button>
+      <button class="reqBtn" id='dep'>Deposit</button>
+      <button class="reqBtn" id="cancel">End Transaction</button>
+    </div>
+    <div class="response">
+      <span id="mess">Lorem ipsum dolor sit amet.</span>
+    </div>
+    <div class="masked"></div>
+    <div class="amounts">
+      <button class="amount" value="20">$20</button>
+      <button class="amount"value="40">$40</button>
+      <button class="amount"value="60">$60</button>
+      <button class="amount"value="80">$80</button>
+      <button class="amount"value="100">$100</button>
+      <button id="end">Complete Withdrawl</button>
+    </div>
+  </div>
+  <div class="numPad">
+    <div class="innerNums">
+     <button class="inBtn">1</button>
+     <button class="inBtn">2</button>
+     <button class="inBtn">3</button>
+     <button class="inBtn">4</button>
+     <button class="inBtn">5</button>
+     <button class="inBtn">6</button>
+     <button class="inBtn">7</button>
+     <button class="inBtn">8</button>
+     <button class="inBtn">9</button>
+     <button class="inBtn">0</button>
+     <button id="sub">Enter</button>
+     <button id="reset" >Start Over</button>
+    </div>
+  </div>
+  <div class="slot" ondrop="cardIn()"ondragover="allowDrop(event)"></div>
+  <p id="cardInfo">INSERT CARD ABOVE</p>
+  <div class="cashBox"></div>
+  <p id="ret">RETRIEVE MONEY</p>
+</div>
+  
+<div class="card" draggable="true">
+  <div class="info">
+    <p>Name</p>
+    <p>2424 4242 3432 1243</p>
+    <p>08/22</p>
+  </div>
+</div>
+
+<div class="money">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/US_%2420_Series_2006_Obverse.jpg" id="t1"class="twank" alt="">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/US_%2420_Series_2006_Obverse.jpg" id="t2"class="twank" alt="">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/US_%2420_Series_2006_Obverse.jpg"id="t3" class="twank" alt="">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/US_%2420_Series_2006_Obverse.jpg" id="t4"class="twank" alt="">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/US_%2420_Series_2006_Obverse.jpg"id="t5" class="twank" alt="">
+
+</div>
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
